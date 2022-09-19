@@ -3,6 +3,7 @@ import './App.css';
 import { ReduxToolKit } from './components/ReduxToolKit';
 import { store } from './stores/redux-tool-kit/store';
 import { Provider } from 'react-redux';
+import { Zustand } from './components/Zustand';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Provider store={store}>
           <ReduxToolKit />
         </Provider>
+        <Zustand />
       </header>
     </div>
   );
