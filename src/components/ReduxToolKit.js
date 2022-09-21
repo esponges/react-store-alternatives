@@ -8,9 +8,9 @@ export const ReduxToolKit = () => {
   return (
     <div className="redux-toolkit">
       <h1>Redux Tool Kit Container</h1>
-        <button onClick={() => dispatch(increment())}>Increment</button>
-        <button onClick={() => dispatch(decrement())}>Decrement</button>
-        <p>Counter: {counter}</p>
+      <button onClick={() => dispatch(increment())}>Increment</button>
+      <button onClick={() => dispatch(decrement())}>Decrement</button>
+      <p>Counter: {counter}</p>
     </div>
   );
 };
